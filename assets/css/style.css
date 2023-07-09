@@ -35,10 +35,6 @@
 
 }
 
-.page-main {
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 .page-header__image {
     margin-top: 20px;
@@ -70,21 +66,24 @@
     color: white;
 }
 
+.page-main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .page-main__experiences-skills {
     width: 65%;
-    padding-left: 20px;
-    padding-right: 20px;
     box-sizing: border-box;
     border-right-color: #782221;
     border-right-style: solid;
-
-    h3 {
-        font-family: "Lato", sans-serif;
-    }
-
 }
 
-.experiences-competences__titre {
+.experiences {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.experiences__heading {
     font-family: "Lato", sans-serif;
     background-color: #dbc2a4;
     border-left-style: solid;
@@ -92,14 +91,104 @@
     border-left-width: 5px;
 }
 
-.experiences-competences__sous-titre {
-    font-family: "Raleway", sans-serif;
+.experiences-first-enterprise__heading {
+    font-family: "Lato", sans-serif;
 }
 
+.experiences-second-enterprise__heading {
+    font-family: "Lato", sans-serif;
+}
 
-.page-main__experience-personnel {
-    width: 35%;
-    box-sizing: border-box;
-    background-color: #782221;
+.experiences-third-enterprise__heading {
+    font-family: "Lato", sans-serif;
+}
+
+.diploma {
     padding-left: 20px;
+    padding-right: 20px;
+}
+
+.diploma__heading {
+    font-family: "Lato", sans-serif;
+    background-color: #dbc2a4;
+    border-left-style: solid;
+    border-left-color: #782221;
+    border-left-width: 5px;
+}
+
+.diploma-first-school__heading {
+    font-family: "Lato", sans-serif;
+}
+
+.diploma-second-school__heading {
+    font-family: "Lato", sans-serif;
+}
+
+.diploma-third-school__heading {
+    font-family: "Lato", sans-serif;
+}
+
+.skills {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skills__heading {
+    font-family: "Lato", sans-serif;
+    background-color: #dbc2a4;
+    border-left-style: solid;
+    border-left-color: #782221;
+    border-left-width: 5px;
+}
+
+.page-main__personnal {
+    width: 35%;
+    background-color: #782221;
+}
+
+.a-propos {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.a-propos__heading {
+    background-color: #dbc2a4;
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+}
+
+.a-propos__text {
+    color: white;
+    padding-left: 20px;
+    text-indent: 30px;
+}
+
+.languages {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.languages__heading {
+    background-color: #dbc2a4;
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+}
+
+.languages__list {
+    color: white;
+}
+
+.interest {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.interest__heading {
+    background-color: #dbc2a4;
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+}
+
+.interest__list {
+    color: white;
 }
