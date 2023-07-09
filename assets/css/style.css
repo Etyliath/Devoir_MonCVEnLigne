@@ -35,6 +35,11 @@
 
 }
 
+.page-main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .page-header__image {
     margin-top: 20px;
     width: 150px;
@@ -63,4 +68,38 @@
 
 .page-header__address-phone {
     color: white;
+}
+
+.page-main__experiences-skills {
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-right-color: #782221;
+    border-right-style: solid;
+
+    h3 {
+        font-family: "Lato", sans-serif;
+    }
+
+}
+
+.experiences-competences__titre {
+    font-family: "Lato", sans-serif;
+    background-color: #dbc2a4;
+    border-left-style: solid;
+    border-left-color: #782221;
+    border-left-width: 5px;
+}
+
+.experiences-competences__sous-titre {
+    font-family: "Raleway", sans-serif;
+}
+
+
+.page-main__experience-personnel {
+    width: 35%;
+    box-sizing: border-box;
+    background-color: #782221;
+    padding-left: 20px;
 }
