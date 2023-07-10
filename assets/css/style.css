@@ -40,6 +40,14 @@
   box-shadow: 2px 2px 2px 2px black;
 }
 
+.page-header__heading-name{
+    font-family: "Lato", sans-serif;
+}
+
+.page-header__heading-poste{
+    font-family: "Lato", sans-serif;
+}
+
 .page-header__contact {
   box-sizing: border-box;
   background-color: #2c1d27;
