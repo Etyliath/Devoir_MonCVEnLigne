@@ -189,3 +189,34 @@
 .interest__list {
   color: white;
 }
+
+.footer {
+  background-color: #782221;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*
+.footer-reseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+*/
+.footer-reseaux__linkedin {
+  width: 50px;
+  margin: 10px;
+}
+
+.footer-reseaux__twitter {
+  width: 50px;
+  margin: 10px;
+}
+.footer-reseaux__github {
+  width: 50px;
+  margin: 10px;
+}
+
+.footer__update {
+  color: white;
+}
