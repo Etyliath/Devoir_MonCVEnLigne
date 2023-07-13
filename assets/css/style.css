@@ -48,7 +48,7 @@
     font-family: "Lato", sans-serif;
 }
 
-.page-header__contact {
+.contact {
   box-sizing: border-box;
   background-color: #2c1d27;
   width: 100%;
@@ -59,16 +59,31 @@
   justify-content: space-between;
 }
 
-.page-header__address-postal {
+.contact__address {
   color: white;
+  text-decoration: none;
 }
 
-.page-header__address-mail {
-  color: white;
+.contact__address:hover {
+  text-decoration: underline;
 }
 
-.page-header__address-phone {
+.contact__mail {
   color: white;
+  text-decoration: none;
+}
+
+.contact__mail:hover {
+  text-decoration: underline;
+}
+
+.contact__phone {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__phone:hover {
+  text-decoration: underline;
 }
 
 .page-main {
