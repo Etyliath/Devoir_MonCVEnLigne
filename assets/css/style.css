@@ -96,15 +96,13 @@
   border-left-width: 5px;
 }
 
-.experiences-first-enterprise__heading {
-  font-family: "Lato", sans-serif;
+.experiences-enterprise:hover{
+  border-right-style: solid;
+  border-right-color: #782221;
+  border-right-width: 5px;
 }
 
-.experiences-second-enterprise__heading {
-  font-family: "Lato", sans-serif;
-}
-
-.experiences-third-enterprise__heading {
+.experiences-enterprise__heading {
   font-family: "Lato", sans-serif;
 }
 
@@ -120,16 +118,13 @@
   border-left-color: #782221;
   border-left-width: 5px;
 }
-
-.diploma-first-school__heading {
-  font-family: "Lato", sans-serif;
+.diploma-school:hover{
+  border-right-style: solid;
+  border-right-color: #782221;
+  border-right-width: 5px;
 }
 
-.diploma-second-school__heading {
-  font-family: "Lato", sans-serif;
-}
-
-.diploma-third-school__heading {
+.diploma-school__heading {
   font-family: "Lato", sans-serif;
 }
 
@@ -144,6 +139,12 @@
   border-left-style: solid;
   border-left-color: #782221;
   border-left-width: 5px;
+}
+
+.skills__list:hover{
+  border-right-style: solid;
+  border-right-color: #782221;
+  border-right-width: 5px;
 }
 
 .page-main__personnal {
