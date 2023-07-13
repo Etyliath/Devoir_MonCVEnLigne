@@ -222,13 +222,26 @@
   margin: 10px;
 }
 
+.reseaux__linkedin:hover{
+  opacity: 0.6;
+}
+
 .reseaux__twitter {
   width: 50px;
   margin: 10px;
 }
+
+.reseaux__twitter:hover{
+  opacity: 0.6;
+}
+
 .reseaux__github {
   width: 50px;
   margin: 10px;
+}
+
+.reseaux__github:hover{
+  opacity: 0.5;
 }
 
 .footer__updateSite {
